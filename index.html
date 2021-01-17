@@ -37,8 +37,10 @@
                     <div class="col-md-5inputZipDate my-auto mx-auto">
                         <p>Enter a zip code and date for a 2 week forecast</p>
                         <form class="form-group ">
-                            <input class="form-control my-2" type="number" placeholder="Zip Code" aria-label="zip Code">
-                            <input class="form-control my-2" type="date" placeholder="" aria-label="date">
+                            <input class="form-control my-2 zipCode" type="number" id="zipCode" placeholder="Zip Code"
+                                aria-label="zip Code">
+                            <input class="form-control my-2 date" type="date" id="date" placeholder=""
+                                aria-label="date">
                             <button class="btn btn-outline-danger float-right calculate" type="submit">Calcuate Fire
                                 Risk</button>
                         </form>
@@ -46,7 +48,7 @@
                 </div>
             </div>
             <div class="predictionResults">
-
+                <div class="container results"></div>
 
             </div>
 
@@ -57,6 +59,8 @@
         </div>
 
     </div>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
