@@ -15,3 +15,41 @@
 
   color: white;
 }
+.day {
+  display: inline;
+  margin: 30px;
+  text-align: center;
+}
+.breakDiv {
+  display: block;
+  margin: 30px;
+  text-align: center;
+}
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dateInput {
+  text-decoration: none;
+  list-style: none;
+}
+.percentage {
+  text-decoration: none;
+  list-style: none;
+}
+
+.green {
+  background-color: yellowgreen;
+  border-radius: 50%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: tomato;
+  border-radius: 50%;
+}
