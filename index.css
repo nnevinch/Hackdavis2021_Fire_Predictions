@@ -4,7 +4,11 @@
 html {
   scroll-behavior: smooth;
 }
-
+#zipCode,
+#date {
+  background-color: whitesmoke;
+  border: none;
+}
 .overview {
   padding-top: 30px;
 }
@@ -64,17 +68,17 @@ html {
 
 .green {
   background-color: yellowgreen;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .yellow {
   background-color: yellow;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .red {
   background-color: tomato;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 .para {
   margin-top: 30px;
@@ -85,11 +89,11 @@ html {
   align-items: center;
   padding-bottom: 14px;
   margin-bottom: 0;
+  font-weight: 700;
 }
 
-.para p {
+.para {
   display: inline;
-  font-weight: 800;
 }
 .range {
   margin-top: 30px;
@@ -106,15 +110,27 @@ html {
 img {
   position: relative;
 }
+
+.div80 p {
+  font-weight: 600;
+}
 .overImage {
   width: 40%;
+  font-weight: bold;
   position: absolute;
-  top: 45%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
+}
+.dateInput {
+  font-weight: 400;
+  color: #585858;
 }
 
 .greenLine {
@@ -160,8 +176,8 @@ img {
   top: 40%;
 }
 
-.range p {
-  display: inline;
+.range {
+  font-weight: 400;
 }
 .horizontal {
   margin-top: 0;
@@ -170,11 +186,17 @@ img {
   border: 1px solid black;
 }
 
+.aboutBlob {
+  display: flex;
+  justify-content: center;
+}
+
 .AboutHeading {
   color: white;
   position: absolute;
-  font-size: 60px;
+  font-weight: 700;
+  font-size: 30px;
   top: 50%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
 }
