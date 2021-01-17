@@ -101,18 +101,20 @@ html {
   margin-bottom: 0;
 }
 .illustration {
-  position: relative;
   display: flex;
 }
 img {
   position: relative;
 }
 .overImage {
+  width: 40%;
   position: absolute;
-  top: 80px;
-  left: 200px;
-  width: 30%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   line-height: 30px;
+  text-align: center;
 }
 
 .greenLine {
@@ -169,8 +171,10 @@ img {
 }
 
 .AboutHeading {
+  color: white;
   position: absolute;
   font-size: 60px;
-  top: 120px;
-  left: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
