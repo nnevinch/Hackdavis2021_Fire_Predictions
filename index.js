@@ -16,13 +16,13 @@ function create() {
   para.innerHTML = "2 Week Forecast";
   headSegment.appendChild(para);
   var range = document.createElement("p");
-  range.classList.add("para");
+  range.classList.add("range");
 
   range.innerHTML =
     '<hr class="greenLine">' +
     '<hr class="yellowLine">' +
     '<hr class="redLine">' +
-    "% risk of fire";
+    "<p>% risk of fire</p>";
   headSegment.appendChild(range);
   // var label = document.createElement("p");
   // label.classList.add("para");
@@ -32,6 +32,7 @@ function create() {
   results.appendChild(headSegment);
   elem = document.createElement("hr");
   elem.setAttribute("width", "80%");
+  elem.classList.add("horizontal");
   results.appendChild(elem);
   dateValue = new Date(
     dateValue.value.substring(0, 4),

@@ -78,15 +78,27 @@ html {
 }
 .para {
   margin-top: 30px;
-
+  position: relative;
   padding-top: 40px;
   justify-items: start;
-}
-.range {
-  justify-items: end;
-  text-align: right;
+  display: flex;
+  align-items: center;
+  padding-bottom: 14px;
+  margin-bottom: 0;
 }
 
+.para p {
+  display: inline;
+}
+.range {
+  margin-top: 30px;
+  position: relative;
+  padding-top: 40px;
+  justify-items: start;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
 .illustration {
   position: relative;
   display: flex;
@@ -112,6 +124,9 @@ img {
 .greenLine::before {
   content: "0";
   text-align: left;
+  position: absolute;
+  left: 0;
+  top: 40%;
 }
 
 .yellowLine {
@@ -124,6 +139,9 @@ img {
 .yellowLine::before {
   content: "30";
   text-align: left;
+  position: absolute;
+  left: 100px;
+  top: 40%;
 }
 .redLine {
   display: inline-block;
@@ -132,8 +150,16 @@ img {
   width: 100px;
   border: none;
 }
-.redLine::after {
+.redLine::before {
   content: "60";
-  left: 0;
-  top: 0;
+  position: absolute;
+  left: 200px;
+  top: 40%;
+}
+
+.range p {
+  display: inline;
+}
+.horizontal {
+  margin-top: 0;
 }
