@@ -69,7 +69,7 @@ html {
 }
 
 .green {
-  background-color: yellowgreen;
+  background-color: #76e074;
   border-radius: 100%;
   height: 45px;
   width: 45px;
@@ -80,7 +80,7 @@ html {
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #ffd772;
   border-radius: 100%;
   height: 45px;
   width: 45px;
@@ -90,7 +90,7 @@ html {
 }
 
 .red {
-  background-color: tomato;
+  background-color: #ff7272;
   border-radius: 100%;
   height: 45px;
   width: 45px;
@@ -153,7 +153,7 @@ img {
 
 .greenLine {
   display: inline-block;
-  background-color: yellowgreen;
+  background-color: #76e074;
   height: 4px;
   width: 100px;
   border: none;
@@ -168,7 +168,7 @@ img {
 
 .yellowLine {
   display: inline-block;
-  background-color: yellow;
+  background-color: #ffd772;
   height: 4px;
   width: 100px;
   border: none;
@@ -182,7 +182,7 @@ img {
 }
 .redLine {
   display: inline-block;
-  background-color: tomato;
+  background-color: #ff7272;
   height: 4px;
   width: 100px;
   border: none;
