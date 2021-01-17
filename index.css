@@ -71,16 +71,32 @@ html {
 .green {
   background-color: yellowgreen;
   border-radius: 100%;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .yellow {
   background-color: yellow;
   border-radius: 100%;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .red {
   background-color: tomato;
   border-radius: 100%;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .para {
   margin-top: 30px;
