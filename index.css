@@ -1,3 +1,17 @@
 .overview {
   padding-top: 30px;
 }
+
+.calculate {
+  background: #fa743f;
+  border-radius: 10px;
+  color: white;
+  border-color: #fa743f;
+}
+
+.calculate:hover {
+  background: #fa743f;
+  border-color: #fa5717;
+
+  color: white;
+}
