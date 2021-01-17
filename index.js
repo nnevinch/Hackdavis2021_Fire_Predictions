@@ -5,6 +5,9 @@ const results = document.querySelector(".results");
 const percentage = 0;
 
 function create() {
+   var para = document.createElement("p");
+      para.classList.add("para");
+      para.innerHTML = "2 Week prediction";
   dateValue = new Date(
     dateValue.value.substring(0, 4),
     dateValue.value.substring(5, 7) - 1,
