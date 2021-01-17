@@ -13,6 +13,8 @@ function create() {
   console.log(dateValue);
   console.log(zipCode.value);
   for (var j = 0; j < 2; j++) {
+     var resultRow = document.createElement("div");
+     resultRow.classList.add("resultRow");
     for (var i = 0; i < 7; i++) {
       var newDiv = document.createElement("div");
       newDiv.classList.add("day");
@@ -31,12 +33,10 @@ function create() {
       }
       newLi.innerHTML = percentage + "%";
       newDiv.appendChild(newLi);
-      results.appendChild(newDiv);
+      resultRow.appendChild(newDiv);
       dateValue.setDate(dateValue.getDate() + 1);
     }
-    var breakDiv = document.createElement("div");
-    breakDiv.classList.add("breakDiv");
-    results.appendChild(breakDiv);
+    results.appendChild(resultRow);
   }
   return;
 }
