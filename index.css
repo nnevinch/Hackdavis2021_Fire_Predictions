@@ -20,12 +20,7 @@
   margin: 30px;
   text-align: center;
 }
-.breakDiv {
-  display: block;
-  margin: 30px;
-  text-align: center;
-}
-.results {
+.resultRow {
   display: flex;
   justify-content: center;
   align-items: center;
