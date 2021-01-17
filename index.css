@@ -9,6 +9,10 @@ html {
   background-color: whitesmoke;
   border: none;
 }
+
+body {
+  padding-bottom:100px;
+}
 .overview {
   padding-top: 30px;
 }
