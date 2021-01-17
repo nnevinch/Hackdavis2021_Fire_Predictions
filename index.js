@@ -6,10 +6,9 @@ const percentage = 0;
 
 function create() {
   var para = document.createElement("p");
-  para.innerHTML = "2 week forecast";
-
+  para.classList.add("para");
+  para.innerHTML = "2 Week prediction";
   results.appendChild(para);
-
   dateValue = new Date(
     dateValue.value.substring(0, 4),
     dateValue.value.substring(5, 7) - 1,
