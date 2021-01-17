@@ -58,6 +58,7 @@ html {
   grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: -7px;
 }
 .dateInput {
   text-decoration: none;
@@ -66,6 +67,7 @@ html {
 .percentage {
   text-decoration: none;
   list-style: none;
+  font-weight: bolder;
 }
 
 .green {
@@ -134,6 +136,7 @@ img {
 }
 .overImage {
   width: 40%;
+  font-size: 18px;
   font-weight: bold;
   position: absolute;
   top: 38%;
@@ -141,7 +144,7 @@ img {
   transform: translate(-50%, -50%);
   text-decoration: underline;
   text-decoration-color: white;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 4px;
   text-underline-offset: 5px;
   line-height: 30px;
   text-align: left;
@@ -212,9 +215,15 @@ img {
 .AboutHeading {
   color: white;
   position: absolute;
+  font-size: 18px;
   font-weight: 700;
   font-size: 30px;
   top: 50%;
   left: 60%;
   transform: translate(-50%, -50%);
+}
+
+.description p {
+  width: 80%;
+  text-align: justify;
 }
