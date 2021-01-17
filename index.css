@@ -45,6 +45,14 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.headSegment {
+  width: 80%;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
 .dateInput {
   text-decoration: none;
   list-style: none;
@@ -72,7 +80,13 @@ html {
   margin-top: 30px;
 
   padding-top: 40px;
+  justify-items: start;
 }
+.range {
+  justify-items: end;
+  text-align: right;
+}
+
 .illustration {
   position: relative;
   display: flex;
@@ -86,4 +100,40 @@ img {
   left: 200px;
   width: 30%;
   line-height: 30px;
+}
+
+.greenLine {
+  display: inline-block;
+  background-color: yellowgreen;
+  height: 4px;
+  width: 100px;
+  border: none;
+}
+.greenLine::before {
+  content: "0";
+  text-align: left;
+}
+
+.yellowLine {
+  display: inline-block;
+  background-color: yellow;
+  height: 4px;
+  width: 100px;
+  border: none;
+}
+.yellowLine::before {
+  content: "30";
+  text-align: left;
+}
+.redLine {
+  display: inline-block;
+  background-color: tomato;
+  height: 4px;
+  width: 100px;
+  border: none;
+}
+.redLine::after {
+  content: "60";
+  left: 0;
+  top: 0;
 }

@@ -6,10 +6,30 @@ const predictionResults = document.querySelector(".predictionResults");
 var percentage = Math.floor(Math.random() * 99 + 1);
 
 function create() {
+  var headSegment = document.createElement("div");
+
+  headSegment.classList.add("headSegment");
+
   var para = document.createElement("p");
   para.classList.add("para");
+
   para.innerHTML = "2 Week Forecast";
-  results.appendChild(para);
+  headSegment.appendChild(para);
+  var range = document.createElement("p");
+  range.classList.add("para");
+
+  range.innerHTML =
+    '<hr class="greenLine">' +
+    '<hr class="yellowLine">' +
+    '<hr class="redLine">' +
+    "% risk of fire";
+  headSegment.appendChild(range);
+  // var label = document.createElement("p");
+  // label.classList.add("para");
+
+  // label.innerHTML = "% risk of fire";
+  // headSegment.appendChild(label);
+  results.appendChild(headSegment);
   elem = document.createElement("hr");
   elem.setAttribute("width", "80%");
   results.appendChild(elem);
