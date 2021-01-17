@@ -89,6 +89,7 @@ html {
 
 .para p {
   display: inline;
+  font-weight: 800;
 }
 .range {
   margin-top: 30px;
@@ -162,4 +163,14 @@ img {
 }
 .horizontal {
   margin-top: 0;
+
+  background-color: black;
+  border: 1px solid black;
+}
+
+.AboutHeading {
+  position: absolute;
+  font-size: 60px;
+  top: 120px;
+  left: 250px;
 }
