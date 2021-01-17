@@ -68,6 +68,7 @@ function create() {
     }
     results.appendChild(resultRow);
   }
+  results.classList.add("bg-light");
   // window.scrollBy(0, 100);
   predictionResults.scrollIntoView();
 

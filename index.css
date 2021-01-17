@@ -38,9 +38,11 @@ html {
 }
 .results {
   width: 80%;
+
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 .resultRow {
   width: "80%";
@@ -83,7 +85,7 @@ html {
 .para {
   margin-top: 30px;
   position: relative;
-  padding-top: 40px;
+  padding-top: 10px;
   justify-items: start;
   display: flex;
   align-items: center;
@@ -98,7 +100,7 @@ html {
 .range {
   margin-top: 30px;
   position: relative;
-  padding-top: 40px;
+  padding-top: 10px;
   justify-items: start;
   display: flex;
   align-items: center;
@@ -145,7 +147,7 @@ img {
   text-align: left;
   position: absolute;
   left: 0;
-  top: 40%;
+  top: 15%;
 }
 
 .yellowLine {
@@ -160,7 +162,7 @@ img {
   text-align: left;
   position: absolute;
   left: 100px;
-  top: 40%;
+  top: 15%;
 }
 .redLine {
   display: inline-block;
@@ -173,7 +175,7 @@ img {
   content: "60";
   position: absolute;
   left: 200px;
-  top: 40%;
+  top: 15%;
 }
 
 .range {
