@@ -1,6 +1,9 @@
 * {
   font-family: "Inter", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .overview {
   padding-top: 30px;
@@ -15,6 +18,9 @@
 .div80 {
   width: 90%;
 }
+.div70 {
+  width: 70%;
+}
 .calculate:hover {
   background: #fa743f;
   border-color: #fa5717;
@@ -26,8 +32,16 @@
   margin: 30px;
   text-align: center;
 }
+.results {
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 .resultRow {
-  display: flex;
+  width: "80%";
+  display: inline-grid;
+  grid-template-columns: repeat(7, 100px);
   justify-content: center;
   align-items: center;
 }
@@ -56,8 +70,8 @@
 }
 .para {
   margin-top: 30px;
-  text-align: center;
-  padding-top: 20px;
+
+  padding-top: 40px;
 }
 .illustration {
   position: relative;
@@ -68,7 +82,7 @@ img {
 }
 .overImage {
   position: absolute;
-  top: 60px;
+  top: 80px;
   left: 200px;
   width: 30%;
   line-height: 30px;
