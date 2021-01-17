@@ -57,10 +57,13 @@ calculateButton.addEventListener("click", check);
 
 function check(e) {
   e.preventDefault();
-
+  dateValue = document.querySelector(".date");
+  while (results.hasChildNodes()) {
+    results.removeChild(results.childNodes[0]);
+  }
   if (zipCode.value.trim() != "" && dateValue.value != "") {
     create();
     zipCode.value = "";
-    dateValue.value = "";
+    document.querySelector(".date").value = "";
   }
 }
