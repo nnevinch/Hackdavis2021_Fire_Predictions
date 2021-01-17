@@ -8,11 +8,13 @@
   color: white;
   border-color: #fa743f;
 }
-
+.div80 {
+  width: 90%;
+}
 .calculate:hover {
   background: #fa743f;
   border-color: #fa5717;
-
+  text-decoration: none;
   color: white;
 }
 .day {
@@ -52,4 +54,18 @@
   margin-top: 30px;
   text-align: center;
   padding-top: 20px;
+}
+.illustration {
+  position: relative;
+  display: flex;
+}
+img {
+  position: relative;
+}
+.overImage {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+  width: 30%;
+  line-height: 30px;
 }
