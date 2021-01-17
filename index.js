@@ -2,6 +2,7 @@ var zipCode = document.querySelector(".zipCode");
 var dateValue = document.querySelector(".date");
 const calculateButton = document.querySelector(".calculate");
 const results = document.querySelector(".results");
+const predictionResults = document.querySelector(".predictionResults");
 var percentage = Math.floor(Math.random() * 99 + 1);
 
 function create() {
@@ -46,6 +47,9 @@ function create() {
     }
     results.appendChild(resultRow);
   }
+  // window.scrollBy(0, 100);
+  predictionResults.scrollIntoView();
+
   return;
 }
 
