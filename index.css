@@ -13,6 +13,16 @@ html {
 body {
   padding-bottom:100px;
 }
+
+.navbar-brand {
+  font-size:22px;
+  font-weight:bold;
+}
+
+.nav-link {
+  font-size:15px;
+}
+
 .overview {
   padding-top: 30px;
 }
@@ -229,5 +239,7 @@ img {
 
 .description p {
   width: 80%;
-  text-align: justify;
+  text-align: left;
+  line-height:1.6;
+  font-size:15px;
 }
